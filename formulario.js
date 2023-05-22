@@ -1,5 +1,4 @@
 let teste = document.getElementById("teste");
-// console.log(teste)
 let btn_enviar = document.querySelector("#btn_enviar");
 let res = document.querySelector("#res");
 
