@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="formulario.css" />
     <script src="formulario.js" defer></script>
-    <title>formulario</title>
+    <title>Formulario</title>
   </head>
   <body>
     <h1>Produtos</h1>
@@ -35,14 +35,14 @@
       </tbody>
     </table>
     <br />
-    <label for="Selecione um produto"
-      >Selecione um produto e a quantidade
-    </label>
+    <br />
+    <label for="produto">Selecione um Produto</label>
     <select name="produto" id="produto">
       <option value="laranja">Laranja</option>
       <option value="limao" selected>Limão</option>
       <option value="pera">Pera</option>
     </select>
+    <label for="qtde">quantidade</label>
     <select name="qtde" id="qtde">
       <option value="1" selected>1 kg</option>
       <option value="2">2 kg</option>
@@ -52,7 +52,12 @@
     </select>
     <br />
     <br />
-    <button type="submit" value="enviar" id="btn_enviar">Enviar</button>
+    <button type="submit" value="enviar" id="btn_enviar">Selecionar</button>
+    <br />
     <div id="res"></div>
+    <br />
+    <button type="submit" value="calcular" id="btn_calcular">Calcular</button>
+    <div id="res2"></div>
+    <br />
   </body>
 </html>
